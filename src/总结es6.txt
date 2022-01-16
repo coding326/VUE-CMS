@@ -1,0 +1,43 @@
+let const
+
+箭头函数
+
+Promise
+
+解构赋值
+
+默认形参
+
+函数扩展 function test(...arg){
+
+}
+  var arr=[1,2,3]
+   test(...arr)
+
+模板字符串  `${name}`
+
+字符串的扩展  .startsWith  .endsWith padStart padEnd
+
+async await //es7 里面的
+
+Es6 中的导入和导出
+     导入 import 变量名 from '标识符'
+     导出  export default{}
+           export 
+
+定义对象的快捷方式
+  var =10
+  {
+      a,
+      show(){}
+  }
+
+
+class 关键字
+
+Fetch API(作用就是来发起ajax请求的，目的是为了替代传统的XHR对象)
+fetch(请求的url 地址字符串).then(function(response){
+  return response.json()
+}).then(result=>{
+  console.log(result)
+})
